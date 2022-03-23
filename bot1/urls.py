@@ -34,6 +34,8 @@ else:
     # export SLACK_CLIENT_SECRET=
     # export SLACK_SIGNING_SECRET=
     # export SLACK_SCOPES=app_mentions:read
+    #token scopes
+    #xapp-1-A037M9EC23C-3272544026150-2fcdc3da99d566d2cab2e0c179ce63c0df89efd46aa544f458b7cd86f037d402
     from slackbot.urls import slack_events_handler, slack_oauth_handler
 
     urlpatterns = [

@@ -1,4 +1,5 @@
 
+from http.client import HTTPResponse
 from logging import Logger
 from typing import Optional
 from uuid import uuid4
